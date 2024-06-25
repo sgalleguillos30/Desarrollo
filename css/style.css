@@ -19,7 +19,7 @@ header {
   margin: 0;
   padding: 0;
 }
-
+/* codigó del navbar */
 .navbar {
   background-color: #062d46;
   padding-left: 70px;
@@ -48,6 +48,7 @@ header {
   color: #5d6d7e;
 }
 
+/* codigó carrusel */
 .card-container {
   width: 100%;
   max-width: 500px;
@@ -72,6 +73,7 @@ header {
   }
 }
 
+/* codigó de index.html */
 .conteiner-card {
   display: flex;
   flex-direction: column;
@@ -81,7 +83,6 @@ header {
   max-width: 1200px;
   padding: 10px;
 }
-
 
 .main-content {
   padding: 20px;
@@ -153,6 +154,7 @@ hr {
   margin: 25px 0;
 }
 
+/* codigó de formulario de contacto */
 .form-icon {
   display: block;
   margin: 0 auto;
@@ -227,7 +229,7 @@ input {
   margin: 0 auto;
   margin-top: 100px;
 }
-
+/* codigó de equipo.html */
 .equipo-container {
   padding: 50px 0;
 }
@@ -276,7 +278,7 @@ input {
   padding: 20px;
   margin-top: 40px;
 }
-
+/* codigó productos.html */
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -320,6 +322,7 @@ input {
   border-radius: 5px;
 }
 
+/* codigó quienes-somos.html */
 .container-form {
   padding: 15px;
 }
@@ -362,7 +365,7 @@ input {
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
 }
-
+/* codigó de footer */
 .footer-conteiner {
   width: 100%;
   background-color: #062d46;
