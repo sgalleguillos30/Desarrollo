@@ -36,6 +36,7 @@ header {
   margin-right: 25px;
 }
 
+/* Estilos para el botón de toggler del navbar */
 .navbar-toggler {
   border-color: white;
 }
@@ -352,7 +353,7 @@ input {
   border-radius: 5px;
 }
 
-.footer-conteiner {
+.footer-container {
   width: 100%;
   background-color: #062d46;
   font-size: 25px;
@@ -361,17 +362,17 @@ input {
   box-sizing: border-box;
 }
 
-.footer-conteiner .grupo-1 {
+.footer-container .grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
-  padding: 45px 0px;
+  padding: 45px 0;
 }
 
-.footer-conteiner .grupo-1 .box figure {
+.footer-container .grupo-1 .box figure {
   width: 100%;
   height: 100%;
   display: flex;
@@ -379,29 +380,29 @@ input {
   align-items: center;
 }
 
-.footer-conteiner .grupo-1 .box figure img {
+.footer-container .grupo-1 .box figure img {
   width: 180px;
 }
 
-.footer-conteiner .grupo-1 .box h5 {
+.footer-container .grupo-1 .box h5 {
   color: #f0f0f0;
   margin-bottom: 40px;
   font-size: 20px;
 }
 
-.footer-conteiner .grupo-1 .red-sociales img {
+.footer-container .grupo-1 .red-sociales img {
   display: inline-block;
   line-height: 45px;
   margin-right: 20px;
   text-align: center;
 }
 
-.footer-conteiner .grupo-1 .cotizacion p {
+.footer-container .grupo-1 .cotizacion p {
   margin-bottom: 10px;
   color: #f0f0f0;
 }
 
-.footer-conteiner .grupo-1 .cotizacion button {
+.footer-container .grupo-1 .cotizacion button {
   margin-top: 10px;
   width: 20%;
   height: 30px;
@@ -412,20 +413,20 @@ input {
   font-size: 20px;
 }
 
-.footer-conteiner .grupo-2 {
+.footer-container .grupo-2 {
   background-color: #34495e;
   padding: 15px 10px;
   text-align: center;
   color: #f0f0f0;
 }
 
-.footer-conteiner .grupo-1 .cotizacion form {
+.footer-container .grupo-1 .cotizacion form {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.footer-conteiner .grupo-1 .cotizacion input {
+.footer-container .grupo-1 .cotizacion input {
   width: calc(50% - 20px);
   margin-bottom: 10px;
   padding: 10px;
