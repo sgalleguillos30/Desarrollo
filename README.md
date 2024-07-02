@@ -1,19 +1,23 @@
 
 # Proyecto de Desarrollo - Curso CoderHouse
 
-El proyecto desarrollado es una página web básica, en donde el tema es la venta de accesorios de productos informáticos.
+El proyecto desarrollado consiste en la creación de una página web básica dedicada a la venta de accesorios para productos informáticos. Esta plataforma está diseñada para ofrecer una amplia gama de productos que complementan y mejoran la experiencia de uso de dispositivos tecnológicos.
+
+Entre los productos disponibles se encuentran:
 
 -	Mouse 
 -	Teclados
 
 VideoConferencia
+
 -	Cámara
 -	Adaptador de USB tipo c
 -	Micrófono 
 
-La página cuenta con cinco plantillas de html, las cuales son la principal que es index.html y las siguientes:
+La página web se estructura alrededor de cinco plantillas HTML, cada una con un propósito específico para ofrecer una experiencia completa a los visitantes:
 
--	Quienes somos.html
+- index.html (Página Pricipal)
+-	Quienes-somos.html
 -	Equipo.html
 -	Productos.html
 -	contacto.html
