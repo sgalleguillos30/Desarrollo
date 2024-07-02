@@ -1,26 +1,25 @@
-.form-icon {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  max-width: 100%;
-  height: auto;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 4px;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.form {
+  &-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: auto;
+  }
+  &-group {
+    margin-bottom: 15px;
+    label {
+      display: block;
+      margin-bottom: 4px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      height: 35px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
 }
 
 form {
@@ -31,7 +30,6 @@ form {
   width: 85%;
   background-color: #f0f3f4;
 }
-
 
 h1 {
   text-align: center;
