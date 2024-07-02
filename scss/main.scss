@@ -1,18 +1,13 @@
 //Reset
 @import "./config/reset";
-//navbar
+//Layout
 @import "./cabecera";
-//principal
 @import "./principal";
-//quienes somos
 @import "./somos";
-//equipo
 @import "./equipo";
-//contacto
 @import "./contacto";
-//galeria
 @import "./galeria";
+@import "./piepagina";
+
 //media query
 @import "./mq";
-//footer
-@import "./piepagina";
