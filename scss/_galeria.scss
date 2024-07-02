@@ -18,7 +18,7 @@
 }
 
 .producto-item {
-  background-color: white;
+  background-color: $color-principal;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -45,7 +45,7 @@
 .detalle {
   margin-top: 10px;
   padding: 10px 15px;
-  background-color: #062d46;
+  background-color: $background-principal;
   color: #ccc;
   font-size: 14px;
   font-weight: bold;

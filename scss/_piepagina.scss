@@ -1,6 +1,6 @@
 .footer-container {
   width: 100%;
-  background-color: #062d46;
+  background-color: $background-principal;
   font-size: 25px;
   position: absolute;
   bottom: 0;
@@ -30,7 +30,7 @@
 }
 
 .footer-container .grupo-1 .box h5 {
-  color: #f0f0f0;
+  color: $color-principal;
   margin-bottom: 40px;
   font-size: 20px;
 }
@@ -44,7 +44,7 @@
 
 .footer-container .grupo-1 .cotizacion p {
   margin-bottom: 10px;
-  color: #f0f0f0;
+  color: $color-principal;
 }
 
 .footer-container .grupo-1 .cotizacion button {
@@ -54,7 +54,7 @@
   border-radius: 5px;
   border: none;
   background-color: #2980b9;
-  color: #f0f0f0;
+  color: $color-principal;
   font-size: 20px;
 }
 
@@ -62,7 +62,7 @@
   background-color: #34495e;
   padding: 15px 10px;
   text-align: center;
-  color: #f0f0f0;
+  color: $color-principal;
 }
 
 .footer-container .grupo-1 .cotizacion form {

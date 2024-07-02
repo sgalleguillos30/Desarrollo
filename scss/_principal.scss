@@ -6,7 +6,7 @@
   margin: 20px auto;
   max-width: 1200px;
   padding: 10px;
-  border: 1px solid #85929e;
+  border: 1px solid $color-second;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
@@ -61,8 +61,8 @@
 }
 
 .btn {
-  background-color: #062d46;
-  color: #fff;
+  background-color: $background-principal;
+  color: $color-principal;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
