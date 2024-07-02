@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -16,8 +16,8 @@ body {
 }
 
 header {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -54,9 +54,9 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 10px;
   margin: 20px auto;
   max-width: 1200px;
-  padding: 10px;
   border: 1px solid #5d6d7e;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -225,8 +225,8 @@ hr {
 }
 .form-group input {
   width: 100%;
-  padding: 10px;
   height: 35px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -294,8 +294,8 @@ input {
   background-color: #f0f0f0;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
   padding: 20px;
+  margin: 10px;
   max-width: 300px;
   text-align: center;
 }
@@ -338,11 +338,11 @@ input {
 .footer-container .grupo-1 {
   width: 100%;
   max-width: 1200px;
+  padding: 45px 0;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
-  padding: 45px 0;
 }
 
 .footer-container .grupo-1 .box figure {
@@ -394,8 +394,8 @@ input {
 }
 
 .footer-container .grupo-1 .cotizacion form {
-  margin: 0;
   padding: 0;
+  margin: 0;
   border: none;
 }
 

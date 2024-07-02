@@ -21,15 +21,13 @@
   background-color: $color-principal;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 20px;
+  @include espacio(20px, 10px);
   max-width: 300px;
   text-align: center;
 }
 
 .producto {
-  width: 100%;
-  height: auto;
+  @include tamaño(100%, auto);
   margin-bottom: 10px;
 }
 

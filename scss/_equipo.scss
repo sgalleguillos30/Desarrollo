@@ -7,8 +7,7 @@
     margin-bottom: 30px;
 
     img {
-      width: 150px;
-      height: 150px;
+      @include tamaño(150px, 150px);
       object-fit: cover;
       margin-bottom: 20px;
     }

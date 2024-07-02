@@ -13,9 +13,8 @@
       margin-bottom: 4px;
     }
     input {
-      width: 100%;
+      @include tamaño(100%,35px);
       padding: 10px;
-      height: 35px;
       border: 1px solid #ccc;
       border-radius: 4px;
     }
@@ -24,8 +23,7 @@
 
 form {
   border: 2px solid #ccc;
-  padding: 50px;
-  margin: 50px auto;
+  @include espacio(50px, 50px auto);
   border-radius: 10px;
   width: 85%;
   background-color: #f0f3f4;
@@ -47,15 +45,13 @@ label {
 }
 
 input {
-  width: 380px;
-  height: 30px;
+  @include tamaño(380px,30px);
 }
 
 .enviar {
   background-color: $background-principal;
   color: #ccc;
-  width: 150px;
-  height: 30px;
+  @include tamaño(150px,30px);
   font-weight: bold;
   font-size: 17px;
   border: none;
