@@ -20,7 +20,9 @@ La página cuenta con cinco plantillas de html, las cuales son la principal que 
 •	Productos.html
 •	contacto.html
 
-# Autor
-@Sebastian Galleguillos
+## Authors
+- [@sebastianGalleguillos](https://github.com/sgalleguillos30/Desarrollo.git)
+
+
 
 
