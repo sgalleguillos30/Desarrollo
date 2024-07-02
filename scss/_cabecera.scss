@@ -15,6 +15,7 @@ header {
 
 .logo {
   margin-right: 25px;
+  @include tamaño(80px,110px);
 }
 
 /* Estilos para el botón de toggler del navbar */

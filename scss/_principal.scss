@@ -60,12 +60,7 @@
 }
 
 .btn {
-  background-color: $background-principal;
-  color: $color-principal;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  @include boton;
 }
 
 hr {

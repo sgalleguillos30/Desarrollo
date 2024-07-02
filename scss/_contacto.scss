@@ -13,7 +13,7 @@
       margin-bottom: 4px;
     }
     input {
-      @include tamaño(100%,35px);
+      @include tamaño(100%, 35px);
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -45,15 +45,5 @@ label {
 }
 
 input {
-  @include tamaño(380px,30px);
-}
-
-.enviar {
-  background-color: $background-principal;
-  color: #ccc;
-  @include tamaño(150px,30px);
-  font-weight: bold;
-  font-size: 17px;
-  border: none;
-  border-radius: 2px;
+  @include tamaño(380px, 30px);
 }
