@@ -7,9 +7,10 @@ El proyecto desarrollado es una página web básica, en donde el tema es la vent
 -	Teclados
 
 VideoConferencia
--	Camara
--	Adaptador de usb tipo c
--	microfono
+-	Cámara
+-	Adaptador de USB tipo c
+-	Micrófono 
+
 
 Este proyecto es desarrollado con html5, css y sassas, ademas posee animaciones en cierto lugares de la página web.
 
