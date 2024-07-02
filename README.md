@@ -11,9 +11,6 @@ VideoConferencia
 -	Adaptador de USB tipo c
 -	Micrófono 
 
-
-Este proyecto es desarrollado con html5, css y sassas, ademas posee animaciones en cierto lugares de la página web.
-
 La página cuenta con cinco plantillas de html, las cuales son la principal que es index.html y las siguientes:
 
 -	Quienes somos.html
@@ -23,6 +20,9 @@ La página cuenta con cinco plantillas de html, las cuales son la principal que 
 
 ## Authors
 - [@SebastiánGalleguillos](https://github.com/sgalleguillos30/Desarrollo.git)
+
+## 🛠 Desarrollado en
+HTML5,SASS...
 
 
 
