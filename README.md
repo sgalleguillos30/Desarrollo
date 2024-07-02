@@ -22,7 +22,7 @@ La página cuenta con cinco plantillas de html, las cuales son la principal que 
 -	contacto.html
 
 ## Authors
-- [@sebastianGalleguillos](https://github.com/sgalleguillos30/Desarrollo.git)
+- [@SebastiánGalleguillos](https://github.com/sgalleguillos30/Desarrollo.git)
 
 
 

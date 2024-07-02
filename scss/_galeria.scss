@@ -1,0 +1,54 @@
+.card-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  max-width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.producto-item {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.producto {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.conteiner-product {
+  padding: 10px;
+}
+
+.product-parrafo {
+  font-size: 14px;
+  color: #333;
+}
+
+.detalle {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #062d46;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}

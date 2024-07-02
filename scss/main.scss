@@ -1,3 +1,18 @@
-ul{
-  background-color: aquamarine;
-}
+//Reset
+@import "./config/reset";
+//navbar
+@import "./cabecera";
+//principal
+@import "./principal";
+//quienes somos
+@import "./somos";
+//equipo
+@import "./equipo";
+//contacto
+@import "./contacto";
+//galeria
+@import "./galeria";
+//media query
+@import "./mq";
+//footer
+@import "./piepagina";

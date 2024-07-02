@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .carousel-inner {
+    max-height: 300px;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-conteiner .grupo-1 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-conteiner .grupo-1 .box {
+    margin-bottom: 20px;
+  }
+
+  .footer-conteiner .grupo-1 .red-sociales img {
+    margin-right: 10px;
+  }
+}

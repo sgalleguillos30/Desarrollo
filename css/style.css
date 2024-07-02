@@ -1,3 +1,4 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +15,12 @@ body {
   font-size: 16px;
   background-color: #f9f9f9;
 }
-
+/* codigó del navbar */
 header {
   margin: 0;
   padding: 0;
 }
-/* codigó del navbar */
+
 .navbar {
   background-color: #062d46;
   padding-left: 70px;
@@ -60,7 +61,6 @@ header {
   height: auto;
   margin: 0 auto;
 }
-
 
 @media (max-width: 768px) {
   .carousel-inner {
@@ -132,7 +132,7 @@ header {
 
 .card-texto {
   font-size: 1.2em;
-  line-height: 1.6;/
+  line-height: 1.6;
 }
 
 .titulo-product {
@@ -265,7 +265,14 @@ input {
 .team-member p:last-child {
   margin-bottom: 20px;
 }
-
+.titulo-equipo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
 .parrafo {
   font-size: 16px;
   text-align: justify;
@@ -357,14 +364,7 @@ input {
   padding-bottom: 10px;
 }
 
-.titulo-equipo {
-  font-size: 30px;
-  font-weight: bold;
-  color: #333;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-}
+
 /* codigó de footer */
 .footer-conteiner {
   width: 100%;
