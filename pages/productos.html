@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../scss/config/_reset.scss" />
     <link rel="icon" href="../assets/logo.png">
+    
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Productos</title>
   </head>
@@ -65,6 +68,7 @@
                 <img
                   src="../assets/aud.png"
                   class="card-img-top img-fluid"
+                  data-aos="fade-down"
                   alt="Audifonos"
                 />
                 <div class="card-body d-flex flex-column">
@@ -78,10 +82,11 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <div class="card h-100 d-flex flex-column shadow-sm bg-light">
+              <div class="card h-100 d-flex flex-column shadow-sm bg-light" >
                 <img
                   src="../assets/mous.png"
                   class="card-img-top img-fluid"
+                  data-aos="fade-down"
                   alt="Mouse"
                 />
                 <div class="card-body d-flex flex-column">
@@ -96,10 +101,11 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <div class="card h-100 d-flex flex-column shadow-sm bg-light">
+              <div class="card h-100 d-flex flex-column shadow-sm bg-light" >
                 <img
                   src="../assets/camara.png"
                   class="card-img-top img-fluid"
+                  data-aos="fade-down"
                   alt="Camara"
                 />
                 <div class="card-body d-flex flex-column">
@@ -113,10 +119,11 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <div class="card h-100 d-flex flex-column shadow-sm bg-light">
+              <div class="card h-100 d-flex flex-column shadow-sm bg-light" >
                 <img
                   src="../assets/ipad.png"
                   class="card-img-top img-fluid"
+                  data-aos="fade-up"
                   alt="iPad"
                 />
                 <div class="card-body d-flex flex-column">
@@ -137,6 +144,7 @@
                 <img
                   src="../assets/mouse-pad.png"
                   class="card-img-top img-fluid"
+                  data-aos="fade-up"
                   alt="Mouse Pad"
                 />
                 <div class="card-body d-flex flex-column">
@@ -152,7 +160,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <div class="card h-100 d-flex flex-column shadow-sm bg-light">
+              <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-down">
                 <img
                   src="../assets/usb.png"
                   class="card-img-top img-fluid"
@@ -200,10 +208,17 @@
         <small><b>Coder House - Sebastián Galleguillos</b> &copy; 2024</small>
       </div>
     </footer>
+    <!-- script boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
