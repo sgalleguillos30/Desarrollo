@@ -322,7 +322,8 @@ input {
 
 .footer-container {
   width: 100%;
-  background-color: #062d46;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgb(6, 45, 70) 62%, rgb(93, 109, 126) 97%);
   font-size: 25px;
   position: absolute;
   bottom: 0;
@@ -383,7 +384,8 @@ input {
   padding: 10px;
 }
 .footer-container .grupo-2 {
-  background-color: #34495e;
+  background: radial-gradient(circle, rgb(52, 73, 94) 38%, rgb(6, 45, 70) 70%);
+  background: rgb(52, 73, 94);
   padding: 15px 10px;
   text-align: center;
   color: #f0f0f0;
