@@ -50,7 +50,7 @@
         @include tamaño(20%, 30px);
         border-radius: 5px;
         border: none;
-        background-color: #2980b9;
+        background-color: map-get($colors-element, celeste);
         color: $color-principal;
         font-size: 20px;
       }
@@ -68,7 +68,6 @@
   }
 
   .grupo-2 {
-    // background-color: #34495e;
     background: $backgroud-footer-gradient;
     background: $background-footer-color;
     padding: 15px 10px;

@@ -5,7 +5,20 @@ $title-pricipal: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 //background
 $background-principal: #062d46;
 $background-icon: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+$backgroud-colors:rgb(2,0,36);
+$background-gradient:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(6,45,70,1) 62%, rgba(93,109,126,1) 97%);
+$background-footer-color:rgb(52,73,94);
+$backgroud-footer-gradient:radial-gradient(circle, rgba(52,73,94,1) 38%, rgba(6,45,70,1) 70%);
 
 //colores
 $color-principal: #f0f0f0;
-$color-second:#5d6d7e;
+$color-second: #5d6d7e;
+
+//map
+$colors-element:(
+  blanco:#f0f3f4,
+  plomo:#5d6d7e,
+  blue:#062d46,
+  celeste:#2980b9
+);
+

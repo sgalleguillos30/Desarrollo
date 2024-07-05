@@ -1,16 +1,3 @@
-@charset "UTF-8";
-.colors-element-format {
-  color: #f0f0f0;
-}
-
-.colors-element-format {
-  color: #5d6d7e;
-}
-
-.colors-element-format {
-  color: #062d46;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -50,7 +37,6 @@ header {
   height: 110px;
 }
 
-/* Estilos para el botón de toggler del navbar */
 .navbar-toggler {
   border-color: #f0f0f0;
 }
