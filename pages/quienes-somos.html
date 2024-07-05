@@ -15,7 +15,14 @@
     <link rel="stylesheet" href="../scss/config/_reset.scss" />
     <link rel="icon" href="../assets/logo.png" />
     <!-- animate -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Quienes Somos</title>
   </head>
   <body>
@@ -95,7 +102,7 @@
           <h2 class="text-center mb-4 title-section" style="font-size: 30px">
             Misión
           </h2>
-          <div class="text-center deformed-image">
+          <div class="text-center deformed-image" data-aos="zoom-in-right">
             <img
               src="../assets/mision.png"
               alt="Imagen Misión de la Empresa"
@@ -115,7 +122,7 @@
           <h2 class="text-center mb-4 title-section" style="font-size: 30px">
             Visión
           </h2>
-          <div class="text-center deformed-image">
+          <div class="text-center deformed-image" data-aos="zoom-in-left">
             <img
               src="../assets/vision.png"
               alt="Imagen Visión de la Empresa"
@@ -167,5 +174,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- script aos animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

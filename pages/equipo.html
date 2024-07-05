@@ -13,9 +13,15 @@
 
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../scss/config/_reset.scss" />
-    <link rel="icon" href="../assets/logo.png">
+    <link rel="icon" href="../assets/logo.png" />
     <!-- animate -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Equipo</title>
   </head>
 
@@ -59,14 +65,18 @@
     </header>
 
     <div class="container team-container my-2">
-      <h2 class="text-center titulo-equipo mb-4 animate__animated animate__pulse">Nuestro Equipo</h2>
+      <h2
+        class="text-center titulo-equipo mb-4 animate__animated animate__pulse"
+      >
+        Nuestro Equipo
+      </h2>
       <p class="text-center mb-5">
         Conoce al equipo detrás de S y G, líderes en accesorios informáticos
       </p>
 
       <div class="row">
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/gerente.png"
               alt="Juan Pérez"
@@ -81,7 +91,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/ventas.png"
               alt="María Rodríguez"
@@ -96,7 +106,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/ing-soporte.png"
               alt="Carlos Gómez"
@@ -111,7 +121,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/diseñadora.png"
               alt="Ana Sánchez"
@@ -129,7 +139,7 @@
 
       <div class="row">
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/desarrollador.png"
               alt="Pedro Martínez"
@@ -144,7 +154,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/logistica.png"
               alt="Luis Hernández"
@@ -159,7 +169,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/asistente.png"
               alt="Sandra García"
@@ -174,7 +184,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="zoom-in">
             <img
               src="../assets/tec-soporte.png"
               alt="José Ramírez"
@@ -224,5 +234,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- script aos animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
