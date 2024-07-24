@@ -16,13 +16,22 @@
     <meta name="author" content="Sebastián Galleguillos" />
 
     <!-- openGraph -->
-     
-    <meta property="og:title" content="Contáctanos">
-    <meta property="og:site_name" content="SyG">
-    <meta property="og:url" content="https://pf-tienda-sy-g.vercel.app/pages/contacto.html">
-    <meta property="og:description" content="¡Contacta con S y G para obtener cotizaciones y realizar tus pedidos de manera sencilla y eficiente! En nuestra página de contacto, encontrarás un formulario intuitivo donde podrás especificar tus necesidades de productos informáticos. Nuestro equipo experto estará encantado de proporcionarte asistencia personalizada y responder todas tus preguntas sobre disponibilidad, precios y opciones de envío. Confía en S y G para facilitarte la mejor experiencia en compras de tecnología.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://i.postimg.cc/d1m06tqH/Contactanos.png">
+
+    <meta property="og:title" content="Contáctanos" />
+    <meta property="og:site_name" content="SyG" />
+    <meta
+      property="og:url"
+      content="https://pf-tienda-sy-g.vercel.app/pages/contacto.html"
+    />
+    <meta
+      property="og:description"
+      content="¡Contacta con S y G para obtener cotizaciones y realizar tus pedidos de manera sencilla y eficiente! En nuestra página de contacto, encontrarás un formulario intuitivo donde podrás especificar tus necesidades de productos informáticos. Nuestro equipo experto estará encantado de proporcionarte asistencia personalizada y responder todas tus preguntas sobre disponibilidad, precios y opciones de envío. Confía en S y G para facilitarte la mejor experiencia en compras de tecnología."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/d1m06tqH/Contactanos.png"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -77,65 +86,77 @@
 
     <div class="container mt-5">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6">
+        <div class="col-lg-8">
           <form>
-            <svg
-              class="form-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="90"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentColor"
-                d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10"
-                opacity=".5"
-              />
-              <path
-                fill="currentColor"
-                d="M16.807 19.011A8.46 8.46 0 0 1 12 20.5a8.46 8.46 0 0 1-4.807-1.489c-.604-.415-.862-1.205-.51-1.848C7.41 15.83 8.91 15 12 15c3.09 0 4.59.83 5.318 2.163c.35.643.093 1.433-.511 1.848M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6"
-              />
-            </svg>
-            <div class="form-floating mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="nombre"
-                placeholder="Ingresa tu nombre"
-              />
-              <label for="nombre">Nombre</label>
+            <div class="row mb-3">
+              <label for="nombreProducto" class="col-sm-4 col-form-label"
+                >Nombre del Producto</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreProducto"
+                  placeholder="Ej. Laptop, Impresora, etc."
+                />
+              </div>
             </div>
-            <div class="form-floating mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="apellido"
-                placeholder="Ingresa tu apellido"
-              />
-              <label for="apellido">Apellido</label>
+            <div class="row mb-3">
+              <label for="cantidad" class="col-sm-4 col-form-label"
+                >Cantidad</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="cantidad"
+                  placeholder="Ej. 5"
+                />
+              </div>
             </div>
-            <div class="form-floating mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="ciudad"
-                placeholder="Ingresa tu ciudad"
-              />
-              <label for="ciudad">Ciudad</label>
+            <div class="row mb-3">
+              <label for="especificaciones" class="col-sm-4 col-form-label"
+                >Especificaciones Técnicas</label
+              >
+              <div class="col-sm-8">
+                <textarea
+                  class="form-control"
+                  id="especificaciones"
+                  placeholder="Ej. Especificaciones técnicas requeridas"
+                  style="height: 100px"
+                ></textarea>
+              </div>
             </div>
-            <div class="form-floating mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Ingresa tu email"
-              />
-              <label for="email">Email</label>
+            <div class="row mb-3">
+              <label for="ciudadEntrega" class="col-sm-4 col-form-label"
+                >Ciudad de Entrega</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="ciudadEntrega"
+                  placeholder="Ej. Santiago"
+                />
+              </div>
             </div>
-            <div class="d-grid">
-              <button type="submit" class="btn btn-primary btn-lg">
-                Enviar
-              </button>
+            <div class="row mb-3">
+              <label for="email" class="col-sm-4 col-form-label">Email</label>
+              <div class="col-sm-8">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Ingresa tu email"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-8 offset-sm-4">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Solicitar Cotización
+                </button>
+              </div>
             </div>
           </form>
         </div>
