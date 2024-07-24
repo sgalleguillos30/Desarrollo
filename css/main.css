@@ -90,7 +90,7 @@ header {
 }
 .card-text {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: #3f3d3d;
 }
 .card-texto {
   font-size: 1.2em;
@@ -335,6 +335,11 @@ input {
   width: 180px;
 }
 .footer-container .grupo-1 .box h5 {
+  color: #f0f0f0;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.footer-container .grupo-1 .box h4 {
   color: #f0f0f0;
   margin-bottom: 40px;
   font-size: 20px;
