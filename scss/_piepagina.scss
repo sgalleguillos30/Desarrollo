@@ -56,9 +56,10 @@
         @include tamaño(20%, 30px);
         border-radius: 5px;
         border: none;
-        background-color: map-get($colors-element, celeste);
+        background-color: map-get($colors-element, oscuro);
         color: $color-principal;
         font-size: 20px;
+        
       }
 
       form {
