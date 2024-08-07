@@ -1,16 +1,3 @@
-//banner
-@media (max-width: 768px) {
-  .carousel-inner {
-    max-height: 300px;
-  }
-
-  .carousel-item img {
-    object-fit: cover;
-    height: auto;
-  }
-}
-
-//footer
 @media (max-width: 768px) {
   .footer-container .grupo-1 {
     grid-template-columns: 1fr;
@@ -23,5 +10,13 @@
 
   .footer-container .grupo-1 .red-sociales img {
     margin-right: 10px;
+  }
+  .carousel-inner {
+    max-height: 300px;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: auto;
   }
 }
