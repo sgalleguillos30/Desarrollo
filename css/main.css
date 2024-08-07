@@ -337,12 +337,7 @@ input {
 .footer-container .grupo-1 .box figure img {
   width: 47%;
 }
-.footer-container .grupo-1 .box h5 {
-  color: #f0f0f0;
-  margin-bottom: 40px;
-  font-size: 20px;
-}
-.footer-container .grupo-1 .box h3 {
+.footer-container .grupo-1 .box p {
   color: #f0f0f0;
   margin-bottom: 40px;
   font-size: 20px;

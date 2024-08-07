@@ -25,13 +25,7 @@
       }
     }
 
-    .box h5 {
-      color: $color-principal;
-      margin-bottom: 40px;
-      font-size: 20px;
-    }
-
-    .box h3 {
+    .box p {
       color: $color-principal;
       margin-bottom: 40px;
       font-size: 20px;
@@ -58,7 +52,6 @@
         background-color: map-get($colors-element, oscuro);
         color: $color-principal;
         font-size: 20px;
-        
       }
 
       form {
