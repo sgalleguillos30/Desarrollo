@@ -17,21 +17,28 @@
     <meta name="author" content="Sebastián Galleguillos" />
 
     <!-- openGraph -->
+    <meta property="og:title" content="Nuestros Productos" />
+    <meta property="og:site_name" content="SyG" />
+    <meta
+      property="og:url"
+      content="https://pf-tienda-sy-g.vercel.app/pages/productos.html"
+    />
+    <meta
+      property="og:description"
+      content="En S y G, ofrecemos una amplia gama de productos informáticos diseñados para satisfacer todas tus necesidades tecnológicas. Desde potentes computadoras de escritorio y laptops ultraportátiles hasta periféricos avanzados como teclados, ratones y monitores de alta resolución, cada producto en nuestra selección está cuidadosamente seleccionado para ofrecer rendimiento y fiabilidad."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://pf-tienda-sy-g.vercel.app/assets/EmpresaSyG.png"
+    />
 
-    <meta property="og:title" content="Nuestros Productos">
-    <meta property="og:site_name" content="SyG">
-    <meta property="og:url" content="https://pf-tienda-sy-g.vercel.app/pages/productos.html">
-    <meta property="og:description" content="En S y G, ofrecemos una amplia gama de productos informáticos diseñados para satisfacer todas tus necesidades tecnológicas. Desde potentes computadoras de escritorio y laptops ultraportátiles hasta periféricos avanzados como teclados, ratones y monitores de alta resolución, cada producto en nuestra selección está cuidadosamente seleccionado para ofrecer rendimiento y fiabilidad.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://pf-tienda-sy-g.vercel.app/assets/EmpresaSyG.png">
-
-  <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../scss/config/_reset.scss" />
     <link rel="icon" type="image/x-icon" href="../assets/logo/logo.png" />
@@ -71,7 +78,7 @@
                 <a class="nav-link" href="equipo.html">Nuestro Equipo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="productos.html">Nuestro Productos</a>
+                <a class="nav-link" href="productos.html">Nuestros Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contáctonos</a>
@@ -81,81 +88,150 @@
         </div>
       </nav>
     </header>
-    <section class="mt-5">
-      <h2 class="text-center title-producto mb-3">Nuestros Productos</h2>
-      <hr>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-down">
-              <img src="../assets/aud.webp" class="card-img-top img-fluid" alt="Audífonos">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">ZONE WARED</h3>
-                <p class="card-text">Auriculares USB con controladores premium y micrófono con cancelación de ruido.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+
+    <main>
+      <section class="mt-5">
+        <h2 class="text-center title-producto mb-3">Nuestros Productos</h2>
+        <hr />
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-down"
+              >
+                <img
+                  src="../assets/aud.webp"
+                  class="card-img-top img-fluid"
+                  alt="Audífonos"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">ZONE WARED</h3>
+                  <p class="card-text">
+                    Auriculares USB con controladores premium y micrófono con
+                    cancelación de ruido.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-down">
-              <img src="../assets/mous.webp" class="card-img-top img-fluid" alt="Mouse">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">MOUSE LIFT</h3>
-                <p class="card-text">Levanta la mano, enderézala en una postura más natural y descubre la verdadera comodidad.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-down"
+              >
+                <img
+                  src="../assets/mous.webp"
+                  class="card-img-top img-fluid"
+                  alt="Mouse"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">MOUSE LIFT</h3>
+                  <p class="card-text">
+                    Levanta la mano, enderézala en una postura más natural y
+                    descubre la verdadera comodidad.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-down">
-              <img src="../assets/camara.webp" class="card-img-top img-fluid" alt="Cámara">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">CÁMARA STREAMCAM</h3>
-                <p class="card-text">Cámara con Full HD y USB-C para streaming de video en tiempo real y creación de contenido.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-down"
+              >
+                <img
+                  src="../assets/camara.webp"
+                  class="card-img-top img-fluid"
+                  alt="Cámara"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">CÁMARA STREAMCAM</h3>
+                  <p class="card-text">
+                    Cámara con Full HD y USB-C para streaming de video en tiempo
+                    real y creación de contenido.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-up">
-              <img src="../assets/ipad.webp" class="card-img-top img-fluid" alt="iPad">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">FOLIO TOUCH PARA iPAD AIR</h3>
-                <p class="card-text">Funda con teclado retroiluminado con trackpad para iPad Pro de 11 pulgadas y iPad Air.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-up"
+              >
+                <img
+                  src="../assets/ipad.webp"
+                  class="card-img-top img-fluid"
+                  alt="iPad"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">
+                    FOLIO TOUCH PARA iPAD AIR
+                  </h3>
+                  <p class="card-text">
+                    Funda con teclado retroiluminado con trackpad para iPad Pro
+                    de 11 pulgadas y iPad Air.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-up">
-              <img src="../assets/mouse-pad.webp" class="card-img-top img-fluid" alt="Mouse Pad">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">LOGITECH MOUSE PAD - STUDIO SERIES</h3>
-                <p class="card-text">Suave alfombrilla de mouse para un deslizamiento fácil y confortable.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-up"
+              >
+                <img
+                  src="../assets/mouse-pad.webp"
+                  class="card-img-top img-fluid"
+                  alt="Mouse Pad"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">
+                    LOGITECH MOUSE PAD - STUDIO SERIES
+                  </h3>
+                  <p class="card-text">
+                    Suave alfombrilla de mouse para un deslizamiento fácil y
+                    confortable.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 d-flex flex-column shadow-sm bg-light" data-aos="fade-down">
-              <img src="../assets/usb.webp" class="card-img-top img-fluid" alt="USB">
-              <div class="card-body d-flex flex-column">
-                <h3 class="card-title text-center">LOGI BOLT USB RECEIVER</h3>
-                <p class="card-text">Receptor USB para mouse y teclado inalámbricos Logi Bolt.</p>
-                <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+            <div class="col mb-4">
+              <div
+                class="card h-100 d-flex flex-column shadow-sm bg-light"
+                data-aos="fade-down"
+              >
+                <img
+                  src="../assets/usb.webp"
+                  class="card-img-top img-fluid"
+                  alt="USB"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">LOGI BOLT USB RECEIVER</h3>
+                  <p class="card-text">
+                    Receptor USB para mouse y teclado inalámbricos Logi Bolt.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Detalle</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
+      </section>
+    </main>
 
     <footer class="footer-container">
       <div class="grupo-1">
         <div class="box">
           <figure>
-            <img src="../assets/logo/logo.webp" alt="logo" class="footer-logo"  />
+            <img
+              src="../assets/logo/logo.webp"
+              alt="logo"
+              class="footer-logo"
+            />
           </figure>
         </div>
         <div class="box">
@@ -167,7 +243,7 @@
           </div>
         </div>
         <div class="box">
-          <h4>COTIZA CON NOSOTROS</h5>
+          <h4>COTIZA CON NOSOTROS</h4>
           <div class="cotizacion">
             <p>Correo electrónico</p>
             <input type="email" name="email" id="email" placeholder="Email" />
@@ -179,6 +255,7 @@
         <small><b>Coder House - Sebastián Galleguillos</b> &copy; 2024</small>
       </div>
     </footer>
+
     <!-- script boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
