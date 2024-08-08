@@ -2,6 +2,7 @@
   &-container {
     padding: 50px 0;
   }
+
   &-member {
     text-align: center;
     margin-bottom: 30px;
@@ -11,15 +12,21 @@
       object-fit: cover;
       margin-bottom: 20px;
     }
+
     h3 {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
     }
+
     p {
       font-size: 14px;
       color: #666;
       margin-bottom: 0;
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
     }
   }
 }
@@ -44,8 +51,4 @@
 .conteiner-parrafo {
   padding: 20px;
   margin-top: 40px;
-}
-
-.team-member p:last-child {
-  margin-bottom: 20px;
 }

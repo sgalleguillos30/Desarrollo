@@ -1,31 +1,31 @@
 header {
-  @include espacio(0,0);
+  @include espacio(0, 0);
 }
 
 .navbar {
   background-color: $background-principal;
   padding-left: 70px;
-  @include tamaño(100%,100%);
-}
+  @include tamaño(100%, 100%);
 
-.nav-link {
-  color: $color-principal;
-  font-size: 20px;
-}
+  .nav-link {
+    color: $color-principal;
+    font-size: 20px;
 
-.logo {
-  margin-right: 25px;
-  @include tamaño(82px,85px);
-}
+    &:hover {
+      color: $color-second;
+    }
+  }
 
+  .navbar-toggler {
+    border-color: $color-principal;
 
-.navbar-toggler {
-  border-color: $color-principal;
-}
+    .navbar-toggler-icon {
+      background-image: $background-icon;
+    }
+  }
 
-.navbar-toggler-icon {
-  background-image: $background-icon;
-}
-.navbar-nav .nav-link:hover {
-  color: $color-second;
+  .logo {
+    margin-right: 25px;
+    @include tamaño(82px, 85px);
+  }
 }
